@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.opacity {
+  width: 100%;
+  height: 100%;
+  background: url("./Images/Logo.PNG");
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.details {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.text {
+  margin-top: 40px;
+}
+
+.text > p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Brygada 1918", serif;
+  position: absolute;
+  right: 0;
+  margin-right: 240px;
+  margin-top: -10px;
+  color: rgb(5, 88, 5);
+}
+
+.text > h2 {
+  font-weight: 700;
+  color: rgb(5, 88, 5);
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.75);
+  font-size: 27px;
+}
+
+.text > h2 > span {
+  margin-left: 10px;
+  color: rgb(39, 36, 36);
+  text-shadow: none;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.up {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.up > div {
+  height: 40px;
+  width: 10px;
+  background-color: rgb(5, 88, 5);
+}
+
+.up > h3 {
+  font-size: 17px;
+  color: rgb(5, 88, 5);
+}
+
+.topBottom {
+  font-size: 14px;
+}
+
+.topBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topBottom > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 30px;
+}
+
+.topBottom > ul > li {
+  color: rgb(5, 88, 5);
+  display: list-item;
+}
+
+.topBottom > .ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: -180px;
+}
+
+.topBottom > .ul > li {
+  list-style: none;
+  color: rgb(5, 88, 5);
+}
+
+.topBottom > .ul > li > span {
+  font-weight: bold;
+}
+
+.passport {
+  width: 150px;
+  height: 150px;
+  /* flex: 1; */
+}
+
+.passport > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.middle1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+table {
+  font-size: 14px;
+  color: rgb(5, 88, 5);
+  width: 100%;
+  border: 1px solid rgb(5, 88, 5);
+}
+
+table > thead > tr > th {
+  border: 1px solid rgb(5, 88, 5);
+  padding: 2.5px;
+}
+
+table > tbody > tr > td {
+  border: 1px solid rgb(5, 88, 5);
+  padding: 2.5px;
+}
+
+table > tbody > tr > td:nth-child(1) {
+  text-align: center;
+}
+
+table > tbody > tr > td:nth-child(3) {
+  text-align: center;
+}
+
+table > tbody > tr > td:nth-child(4) {
+  text-align: center;
+}
+
+.middle1 > p {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(5, 88, 5);
+  font-weight: bold;
+}
+
+.middle2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(5, 88, 5);
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.middle2Top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle2Bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom > pre {
+  text-align: center;
+  color: rgb(10, 77, 10);
+}
+
+.bottom > .buttons {
+  display: flex;
+  gap: 10px;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+.bottom > .buttons > button {
+  padding: 2px;
+}
